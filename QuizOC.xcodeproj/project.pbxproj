@@ -14,6 +14,8 @@
 		1C9A23FE233A38C000B173CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A23FD233A38C000B173CD /* Assets.xcassets */; };
 		1C9A2401233A38C000B173CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9A23FF233A38C000B173CD /* LaunchScreen.storyboard */; };
 		1C9A2404233A38C000B173CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A2403233A38C000B173CD /* main.m */; };
+		1CA9FAD8233AE933009B1B94 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9FAD6233AE933009B1B94 /* BNRQuizViewController.m */; };
+		1CA9FAD9233AE933009B1B94 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA9FAD7233AE933009B1B94 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		1C9A2400233A38C000B173CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9A2402233A38C000B173CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9A2403233A38C000B173CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CA9FAD5233AE933009B1B94 /* BNRQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		1CA9FAD6233AE933009B1B94 /* BNRQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		1CA9FAD7233AE933009B1B94 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				1C9A23F5233A38BF00B173CD /* SceneDelegate.m */,
 				1C9A23F7233A38BF00B173CD /* ViewController.h */,
 				1C9A23F8233A38BF00B173CD /* ViewController.m */,
+				1CA9FAD5233AE933009B1B94 /* BNRQuizViewController.h */,
+				1CA9FAD6233AE933009B1B94 /* BNRQuizViewController.m */,
+				1CA9FAD7233AE933009B1B94 /* BNRQuizViewController.xib */,
 				1C9A23FA233A38BF00B173CD /* Main.storyboard */,
 				1C9A23FD233A38C000B173CD /* Assets.xcassets */,
 				1C9A23FF233A38C000B173CD /* LaunchScreen.storyboard */,
@@ -133,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA9FAD9233AE933009B1B94 /* BNRQuizViewController.xib in Resources */,
 				1C9A2401233A38C000B173CD /* LaunchScreen.storyboard in Resources */,
 				1C9A23FE233A38C000B173CD /* Assets.xcassets in Resources */,
 				1C9A23FC233A38BF00B173CD /* Main.storyboard in Resources */,
@@ -150,6 +159,7 @@
 				1C9A23F3233A38BF00B173CD /* AppDelegate.m in Sources */,
 				1C9A2404233A38C000B173CD /* main.m in Sources */,
 				1C9A23F6233A38BF00B173CD /* SceneDelegate.m in Sources */,
+				1CA9FAD8233AE933009B1B94 /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
